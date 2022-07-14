@@ -1,7 +1,7 @@
 {
   "name": "enjoysoon",
   "version": "0.1.0",
-  "homepage": "https://fede1132.github.io/enjoysoon",
+  "homepage": "https://www.enjoytheboost.com",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
@@ -23,7 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && echo enjoytheboost.com > dist/CNAME",
+    "predeploy": "npm run build && echo enjoytheboost.com > build/CNAME",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
