@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="w-scren h-screen overflow-hidden flex justify-center items-center" style={{background: "linear-gradient(225deg, var(--primary) 0%, var(--secondary))"}}>
+    <div className="min-w-scren min-h-screen overflow-hidden flex justify-center items-center" style={{background: "linear-gradient(225deg, var(--primary) 0%, var(--secondary))"}}>
       <Particles className="absolute" options={particle} id="particles" init={particlesInit} loaded={particlesLoaded} ></Particles>
       <div className="lg:w-1/3 lg:h-2/3 w-full h-full p-5 flex justify-center items-center flex-col">
         <img src={logo} alt="logo" className="w-1/3 z-10"></img>
